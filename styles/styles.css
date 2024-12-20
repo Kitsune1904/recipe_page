@@ -91,7 +91,7 @@ body main .nutrition div {
   display: flex;
   flex-direction: column;
 }
-body main .nutrition div div {
+body main .nutrition div hr {
   border: solid 1px #F3E5D7;
   margin: 12px 0;
 }
