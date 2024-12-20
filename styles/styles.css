@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("../assets/fonts/Young_Serif/YoungSerif-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("ttf");
+}
+body header img {
+  width: 100%;
+}
+body main {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #5F564D;
+  margin: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+body main .ingredients div, body main .time div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body main .ingredients div .special, body main .time div .special {
+  font-weight: bold;
+}
+body main .ingredients div p, body main .time div p {
+  display: flex;
+  gap: 32px;
+}
+body main .ingredients div p img, body main .time div p img {
+  margin-left: 8px;
+}
+body main .description h1 {
+  font-family: "Young Serif", serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+  color: #312E2C;
+  margin-bottom: 24px;
+}
+body main .time {
+  padding: 24px;
+  background-color: #FFF7FB;
+  border-radius: 12px;
+}
+body main .time h3 {
+  font-family: "Outfit", sans-serif;
+  color: #7A284E;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+body main h3 {
+  color: #854632;
+  font-size: 28px;
+  font-family: "Young Serif", serif;
+  margin-bottom: 24px;
+}
+body main .instructions div {
+  display: flex;
+  flex-direction: column;
+}
+body main .instructions div div {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+body main .instructions div div span {
+  color: #854632;
+  font-weight: bold;
+  margin-left: 8px;
+}
+body main .instructions div div .special {
+  color: #5F564D;
+  margin: 0;
+}
+body main .nutrition p {
+  margin-bottom: 24px;
+}
+body main .nutrition div {
+  display: flex;
+  flex-direction: column;
+}
+body main .nutrition div div {
+  border: solid 1px #F3E5D7;
+  margin: 12px 0;
+}
+body main .nutrition div p {
+  margin: 0;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body main .nutrition div p span {
+  color: #854632;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 128px 0;
+    background-color: #F3E5D7;
+  }
+  body .container {
+    width: 70%;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 24px;
+  }
+  body .container header img {
+    border-radius: 12px;
+    margin-bottom: 40px;
+  }
+  body .container main {
+    margin: 0;
+  }
+}
+@media (min-width: 1440px) {
+  body .container {
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
