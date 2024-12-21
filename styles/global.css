@@ -1,6 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Young Serif";
-  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf");
+  src: url("../assets/fonts/Young_Serif/YoungSerif-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
 }
 
 /*# sourceMappingURL=global.css.map */
