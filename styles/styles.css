@@ -26,6 +26,9 @@ body main {
   flex-direction: column;
   gap: 23px;
 }
+body main .separator {
+  border: none;
+}
 body main .ingredients div, body main .time div {
   display: flex;
   flex-direction: column;
@@ -126,6 +129,9 @@ body main .nutrition div p span {
   }
   body .container main {
     margin: 0;
+  }
+  body .container main .separator {
+    border: solid 1px #F3E5D7;
   }
 }
 @media (min-width: 1440px) {
